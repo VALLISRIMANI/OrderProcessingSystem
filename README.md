@@ -51,7 +51,7 @@ ORDERPROCESSINGSYSTEM/
 ### 1. Database Configuration
 Run the schema script to create the database (`order_processing_system`) and populate it with seed items:
 ```powershell
-Get-Content "sql/schema.sql" | & "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -pvalli00
+Get-Content "sql/schema.sql" | & "C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -ppassword
 ```
 To modify connection details (e.g., MySQL user/password), edit:
 `src/main/resources/application.properties`
