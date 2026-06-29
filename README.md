@@ -29,22 +29,20 @@ ORDERPROCESSINGSYSTEM/
 ├── sql/
 │   └── schema.sql                        # Database Schema and Seed Data
 ├── src/
-│   ├── main/
-│   │   ├── java/src/
-│   │   │   ├── controllers/              # REST APIs (Item, Customer, Order)
-│   │   │   ├── dao/                      # JDBC Data Access Objects
-│   │   │   ├── model/                    # Data Entities
-│   │   │   ├── util/                     # DBConnection Class (Utility)
-│   │   │   └── OrderProcessingSystemApplication.java  # Spring Boot Main
-│   │   └── resources/
-│   │       └── application.properties    # Configuration (DB passwords, Ports)
-└── web/
-    ├── index.html                        # SPA Document
-    ├── style.css                         # Custom UI stylesheets
-    └── app.js                            # Frontend API handlers
+    ├── main/
+        ├── java/src/
+        │   ├── controllers/              # REST APIs (Item, Customer, Order)
+        │   ├── dao/                      # JDBC Data Access Objects
+        │   ├── model/                    # Data Entities
+        │   ├── util/                     # DBConnection Class (Utility)
+        │   └── OrderProcessingSystemApplication.java  # Spring Boot Main
+        └── resources/
+            └── application.properties    # Configuration (DB passwords, Ports)
+            └── static/
+                ├── index.html                        # SPA Document
+                ├── style.css                         # Custom UI stylesheets
+                └── app.js                            # Frontend API handlers
 ```
-
----
 
 ## ⚙️ Running Globally (Development Setup)
 
